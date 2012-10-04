@@ -1,8 +1,29 @@
 ---
 layout: main
-title: Valeurs
+title: Offres
 ---
-<div id="craftsmanship" class="grey_wrapper">
+<div class="navbar subnavbar navbar-fixed-top ">
+    <div class="subnavbar-offers-inner">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="row">
+
+                        <div class="span10" id="navbar">
+                            <ul class="nav">
+                                <li><a href="#agile">L'entreprise Agile</a></li>
+                                <li><a href="#innovation">Innovation</a></li>
+                                <li><a href="#woa">Web Oriented Architecture</a></li>
+                                <li><a href="#bigdata">Big Data</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="agile" class="grey_wrapper">
     <div class="container">
         <div class="row-fluid">
             <div class="span12">
@@ -40,7 +61,7 @@ title: Valeurs
         </div>
     </div>
 </div>
-<div id="picto-valeur" class="container">
+<div id="innovation" class="container">
     <div class="row columns">
       
         <div class="span4">
@@ -91,3 +112,50 @@ title: Valeurs
         
     </div>
 </div>
+<div id="woa" class="grey_wrapper">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="row-fluid">
+                    <div class="span6">
+                        <h2 class="craftsmanship_title">CRAFTSMANSHIP</h2>
+                        <p>
+                            Nous sommes persuadés qu'il est possible de délivrer des logiciels de bien
+                            meilleure
+                            qualité sans pour autant en faire exploser les coûts.
+                        </p>
+                        <p>
+                            Nous appliquons les principes du software craftsmanship dans tous
+                            nos projets : SOLID, déploiement continu, TDD, entraînement, YAGNI
+                        </p>
+                        <p>
+                            Un craftsman est une personne qui travaille rapidement, mais sans précipitation,
+                            qui donne des estimations réalistes et qui tient ses engagements. Un
+                            craftsman sait dire non, mais fait tout son possible pour dire oui.
+                        </p>
+                        <blockquote>
+                            <p><b><i>"En un mot, un craftsman est un professionnel."</i></b></p>
+                            <small>Uncle Bob</small>
+                        </blockquote>
+                        <p>
+                            Cette conviction et notre passion sont au service de la réalisation de vos applications.
+                            Nous faisons ce métier parce que nous l'aimons et nous nous impliquons avec sérieux et dévotion sur tous nos projets.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('a[href^="#"]').click(function(){
+            var the_id = $(this).attr("href");
+            $('html, body').animate({
+                scrollTop:$(the_id).offset().top
+            }, 'slow');
+            return false;
+        });
+    });
+</script>

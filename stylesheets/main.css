@@ -4,10 +4,11 @@ body {
     background: transparent url(../images/backgrounds/background_body.jpg) repeat;
     font-family: AsapRegular, sans-serif;
     padding-top: 150px;
+    margin-top: -75px;
 }
 
 .container {
-    margin-top: -5px;
+
 }
 
 blockquote {
@@ -69,7 +70,6 @@ img.border {
     background: transparent url(../images/backgrounds/background_grey.jpg) repeat;
     background-color: #b0adb4;
     width: 100%;
-    margin-top: -18px;
     padding-top: 20px;
     padding-bottom: 15px;
     border-bottom: 7px solid #6d747a;
@@ -95,6 +95,7 @@ img.border {
     box-shadow: 5px 5px 5px #888;
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
     font-family: Rokkit, sans-serif;
+
 }
 
 span#navbar {
@@ -103,18 +104,21 @@ span#navbar {
 
 .navbar .nav {
     font-size: 150%;
-    margin-top: 15px;
+    margin-top: 7px;
     margin-left: 40px;
 }
 
 .subnavbar{
     margin-top: 50px;
+    -moz-box-shadow: 5px 2px 2px #888;
+    -webkit-box-shadow: 5px 2px 2px #888;
+    box-shadow: 5px 5px 5px #888;
 }
 
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
-    color: #cccccc;
+    color: #f8fbff;
     text-decoration: none;
-    background: transparent url(../images/backgrounds/background_header.jpg) repeat;
+    background: transparent url(../images/backgrounds/background-subnavbar.png) repeat;
 }
 
 .navbar .nav > li > a {
@@ -139,6 +143,12 @@ span#navbar {
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
 }
 
+.subnavbar-offers-inner{
+    padding-left: 160px;
+    height: 40px;
+    background: transparent url(../images/backgrounds/background-subnavbar.png) repeat;
+}
+
 .navbar-inner .container-fluid {
     padding-top: 25px;
 }
@@ -151,7 +161,7 @@ span#navbar {
     width: 200px;
     height: 100px;
     padding-left: 20px;
-    margin-top: 15px;
+    margin-top: 7px;
     margin-right: 0px;
 }
 
@@ -406,7 +416,6 @@ h2.about_h2{
 
 div#about{
     padding-bottom: 15px;
-    margin-top:-50px;
 }
 
 .about {

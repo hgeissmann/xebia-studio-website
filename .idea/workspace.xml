@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29256f89-ccf6-41d5-bb82-cec981c8d1f5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/valeurs.html" afterPath="$PROJECT_DIR$/offres.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/main.html" afterPath="$PROJECT_DIR$/_layouts/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apropos.html" afterPath="$PROJECT_DIR$/apropos.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/studio.html" afterPath="$PROJECT_DIR$/studio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/fonts.css" afterPath="$PROJECT_DIR$/stylesheets/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
     </list>
     <ignored path="website.iws" />
@@ -31,10 +30,8 @@
       <file leaf-file-name="apropos.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apropos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="23" selection-start="1093" selection-end="1093" vertical-scroll-proportion="-1.8">
-              <folding>
-                <element signature="tag#div#0" expanded="false" />
-              </folding>
+            <state line="4" column="28" selection-start="56" selection-end="65" vertical-scroll-proportion="-2.5">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,8 +39,35 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="412" column="34" selection-start="6702" selection-end="6702" vertical-scroll-proportion="0.56292516">
+            <state line="193" column="20" selection-start="3660" selection-end="3660" vertical-scroll-proportion="1.4812925">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="offres.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/offres.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="50" selection-start="186" selection-end="186" vertical-scroll-proportion="-2.1">
+              <folding>
+                <element signature="tag#div#2" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="76" selection-start="2631" selection-end="2631" vertical-scroll-proportion="-11.833333">
+              <folding>
+                <marker date="1349391532000" expanded="true" signature="848:938" placeholder="..." />
+                <marker date="1349391532000" expanded="true" signature="951:1112" placeholder="..." />
+                <marker date="1349391532000" expanded="true" signature="990:1100" placeholder="{...}" />
+                <marker date="1349391532000" expanded="true" signature="1130:1285" placeholder="..." />
+                <marker date="1349391532000" expanded="true" signature="1177:1270" placeholder="{...}" />
+                <marker date="1349391532000" expanded="true" signature="1202:1261" placeholder="{&quot;mode&quot;: &quot;overlay&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,10 +75,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="165" selection-end="165" vertical-scroll-proportion="-5.0">
-              <folding>
-                <element signature="tag#div#2;tag#div#0" expanded="false" />
-              </folding>
+            <state line="11" column="20" selection-start="198" selection-end="198" vertical-scroll-proportion="-6.875">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,11 +95,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/stylesheets/fonts.css" />
-        <option value="$PROJECT_DIR$/_layouts/main.html" />
         <option value="$PROJECT_DIR$/studio.html" />
         <option value="$PROJECT_DIR$/_site/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/apropos.html" />
+        <option value="$PROJECT_DIR$/_layouts/main.html" />
+        <option value="$PROJECT_DIR$/offres.html" />
         <option value="$PROJECT_DIR$/stylesheets/main.css" />
       </list>
     </option>
@@ -141,84 +164,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rokkit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Miso" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -230,8 +175,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -318,12 +271,31 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apropos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="394" column="69" selection-start="6461" selection-end="6461" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="109" column="70" selection-start="5690" selection-end="5690" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#div#2;tag#div#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -334,30 +306,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="21" selection-start="1936" selection-end="1936" vertical-scroll-proportion="1.875">
-          <folding>
-            <marker date="1349377337000" expanded="true" signature="848:938" placeholder="..." />
-            <marker date="1349377337000" expanded="true" signature="951:1112" placeholder="..." />
-            <marker date="1349377337000" expanded="true" signature="990:1100" placeholder="{...}" />
-            <marker date="1349377337000" expanded="true" signature="1130:1285" placeholder="..." />
-            <marker date="1349377337000" expanded="true" signature="1177:1270" placeholder="{...}" />
-            <marker date="1349377337000" expanded="true" signature="1202:1261" placeholder="{&quot;mode&quot;: &quot;overlay&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technologies.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="1159" selection-end="2827" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/valeurs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="72" selection-end="72" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
@@ -378,32 +329,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/equipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="43" selection-start="3525" selection-end="3525" vertical-scroll-proportion="2.339688">
+        <state line="90" column="43" selection-start="3525" selection-end="3525" vertical-scroll-proportion="2.339688" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apropos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="56" selection-end="65" vertical-scroll-proportion="-2.5">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="76" selection-start="2631" selection-end="2631" vertical-scroll-proportion="-11.833333">
+          <folding>
+            <marker date="1349391532000" expanded="true" signature="848:938" placeholder="..." />
+            <marker date="1349391532000" expanded="true" signature="951:1112" placeholder="..." />
+            <marker date="1349391532000" expanded="true" signature="990:1100" placeholder="{...}" />
+            <marker date="1349391532000" expanded="true" signature="1130:1285" placeholder="..." />
+            <marker date="1349391532000" expanded="true" signature="1177:1270" placeholder="{...}" />
+            <marker date="1349391532000" expanded="true" signature="1202:1261" placeholder="{&quot;mode&quot;: &quot;overlay&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/offres.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="50" selection-start="186" selection-end="186" vertical-scroll-proportion="-2.1">
+          <folding>
+            <element signature="tag#div#2" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="165" selection-end="165" vertical-scroll-proportion="-5.0">
-          <folding>
-            <element signature="tag#div#2;tag#div#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apropos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="1093" selection-end="1093" vertical-scroll-proportion="-1.8">
-          <folding>
-            <element signature="tag#div#0" expanded="false" />
-          </folding>
+        <state line="11" column="20" selection-start="198" selection-end="198" vertical-scroll-proportion="-6.875">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="412" column="34" selection-start="6702" selection-end="6702" vertical-scroll-proportion="0.56292516">
+        <state line="193" column="20" selection-start="3660" selection-end="3660" vertical-scroll-proportion="1.4812925">
           <folding />
         </state>
       </provider>
