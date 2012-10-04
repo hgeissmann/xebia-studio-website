@@ -95,3 +95,14 @@
 
 }
 
+
+/* Rokkit */
+
+@font-face {
+    font-family: 'Rokkit';
+    src: url('../font/rokkit/Rokkitt.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
