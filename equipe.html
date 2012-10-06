@@ -7,12 +7,61 @@ title: L'équipe
 
 <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/team.css"/>
 
+<div class="navbar subnavbar subnavbar-fixed-top horizontal">
+    <div class="subnavbar-inner subnavbar-offers-inner">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="row">
+
+                        <div class="span10" id="navbar">
+                            <ul class="nav">
+                                <li><a href="#bio">L'équipe</a></li>
+                                <li><a href="#profils">Profils de Xebians</a></li>
+                                <li><a href="#rejoindre">Nous rejoindre</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="bio"></div>
 
 <div class="container">
     <div class="row-fluid">
         <div class="span12">
             <div id="craftmen"></div>
+        </div>
+    </div>
+    <div class="separator"/>
+</div>
+
+<div class="container">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="row-fluid">
+                <div class="span4">
+                    <h1 id="rejoindre">REJOIGNEZ NOUS !</h1>
+                    <br>
+
+                    <p class="joinus_p">
+                        Nous cherchons des développeurs ayant déjà roulé leur bosse, communicants, humbles, fiers de
+                        leur
+                        métier, rompus aux pratiques agiles et aimant le travail bien fait.</p>
+                    <br/>
+
+                    <p class="joinus_p">Si vous pensez être ce mouton à 5 pattes, n'hésitez pas à nous contacter en
+                        envoyant votre CV ainsi que des exemples de code que vous avez publié : <a
+                                href="mailto:studio@xebia.fr">studio@xebia.fr.</a>
+                </div>
+                <div class="span8 center">
+                    <img src="images/rejoindre/mouton_5pattes.png" alt="moutons"/>
+                </div>
+            </div>
+            <br/>
         </div>
     </div>
 </div>
@@ -22,7 +71,7 @@ title: L'équipe
 -->
 
 <script id="bio-template" type="text/x-handlebars-template">
-    <div class="grey_wrapper bio">
+    <div class="color_wrapper grey bio">
         <div class="container">
             <div class="row-fluid">
                 <div class="span12">
@@ -93,5 +142,7 @@ title: L'équipe
         });
     });
 </script>
+
+<script src="javascripts/smooth-scroll.js"/>
 
 

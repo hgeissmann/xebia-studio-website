@@ -66,8 +66,7 @@ img.border {
     box-shadow: 0px 8px 15px #444;
 }
 
-.grey_wrapper {
-    background: transparent url(../images/backgrounds/background_grey.jpg) repeat;
+.color_wrapper {
     background-color: #b0adb4;
     width: 100%;
     padding-top: 20px;
@@ -75,6 +74,30 @@ img.border {
     border-bottom: 7px solid #6d747a;
     color: #ffffff;
 }
+
+.grey {
+    background: transparent url(../images/backgrounds/background_grey.jpg) repeat;
+}
+
+.purple {
+    background: transparent url(../images/backgrounds/background-purple.jpg) repeat;
+}
+
+.blue {
+    background: transparent url(../images/backgrounds/background_blue.jpg) repeat;
+}
+
+/***********************/
+/*       Index         */
+/***********************/
+
+h1.title{
+    font-size:600%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
 
 /***********************/
 /*       UTILS         */
@@ -84,18 +107,24 @@ img.border {
     text-align: center;
 }
 
+.separator{
+    background: transparent url("../images/backgrounds/separator.png");
+    height: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
 /***********************/
 /*       NavBars        */
 /***********************/
 
 .navbar {
-    /*border-bottom: 8px solid #48183e;    */
-    -moz-box-shadow: 5px 2px 2px #888;
-    -webkit-box-shadow: 5px 2px 2px #888;
-    box-shadow: 5px 5px 5px #888;
+    -moz-box-shadow: 0px 2px 2px #000;
+    -webkit-box-shadow: 0px 2px 2px #7a0088;
+    box-shadow: 0px 2px 2px #424242;
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
     font-family: Rokkit, sans-serif;
-
 }
 
 span#navbar {
@@ -104,31 +133,57 @@ span#navbar {
 
 .navbar .nav {
     font-size: 150%;
-    margin-top: 7px;
     margin-left: 40px;
 }
 
 .subnavbar{
+    position: absolute;
     margin-top: 50px;
-    -moz-box-shadow: 5px 2px 2px #888;
-    -webkit-box-shadow: 5px 2px 2px #888;
-    box-shadow: 5px 5px 5px #888;
+    box-shadow: 0px 2px 2px #888, 0px -2px 2px #000000;
+}
+
+.subnavbar-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1500;
+}
+
+.subnavbar-fixed-top .navbar-inner {
+    padding-left: 0;
+    padding-right: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
 
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
     color: #f8fbff;
     text-decoration: none;
-    background: transparent url(../images/backgrounds/background-subnavbar.png) repeat;
+    background-color: transparent;
 }
 
 .navbar .nav > li > a {
     color: #cccccc;
+    padding-top: 15px;
+    height: 30px;
+}
+
+.subnavbar .nav > li > a {
+    color: #cccccc;
+    padding-top: 7px;
+    height: 30px;
 }
 
 .navbar-inner {
-
-    height: 60px;
+    height: 50px;
     background: transparent url(../images/backgrounds/background_header.jpg) repeat;
+}
+
+.subnavbar-inner {
+    height: 35px;
+    background: transparent url(../images/backgrounds/background-subnavbar.jpg) repeat;
 }
 
 .subnavbar .nav {
@@ -137,23 +192,15 @@ span#navbar {
     margin-left: 70px;
 }
 
-.subnavbar-apropos-inner{
-    padding-left: 750px;
-    height: 40px;
-    background: transparent url(../images/backgrounds/background_header.jpg) repeat;
-}
-
-.subnavbar-offers-inner{
-    padding-left: 160px;
-    height: 40px;
-    background: transparent url(../images/backgrounds/background-subnavbar.png) repeat;
-}
-
 .navbar-inner .container-fluid {
     padding-top: 25px;
 }
 
 .navbar .nav > li {
+}
+
+.subnavbar .nav > li > a {
+    color: #FFFFFF;
 }
 
 #logo {
@@ -624,4 +671,12 @@ img.team {
     text-decoration: none;
     opacity: 0.9;
     filter: alpha(opacity = 90);
+}
+
+/*************************/
+/* Nos offres            */
+/*************************/
+
+.subnavbar-offers-inner{
+    padding-left: 160px;
 }
